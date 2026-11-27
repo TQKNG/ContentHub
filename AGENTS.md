@@ -106,7 +106,7 @@
 - Type checker: Not configured - project requirements are undecided.
 - Build system: Not configured - project requirements are undecided.
 - Required CI workflow: `.github/workflows/ci.yml`.
-- Required CI status check: `Not configured - project requirements are undecided`.
+- Required CI status check: `repository-baseline`.
 - Run formatting checks without rewriting unrelated files.
 - Fix new warnings introduced by the change.
 - Do not commit generated output unless repository policy requires it.
