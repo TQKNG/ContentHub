@@ -1,0 +1,32 @@
+# Contributing to ContentHub
+
+## How to start
+
+- Check existing issues and pull requests before starting work.
+- Open an issue to discuss substantial changes.
+- Keep pull requests focused and describe the problem they solve.
+
+## Set up and verify
+
+- Follow the setup and verification instructions in [README.md](README.md).
+- Run the checks relevant to your change before submitting it.
+
+## Submit a pull request
+
+- Explain the change, link any related issue, and list the checks you ran.
+- Describe any checks you could not run and why.
+- Include screenshots for visible UI changes when applicable.
+- Remove credentials and sensitive data from code, examples, logs, and screenshots.
+
+## Reference
+
+- Issue templates:
+  - [Bug report](.github/ISSUE_TEMPLATE/bug_report.md)
+  - [Feature request](.github/ISSUE_TEMPLATE/feature_request.md)
+- [Pull request template](.github/pull_request_template.md)
+- [CI workflow](.github/workflows/ci.yml) - automated pull request checks.
+
+## Releases
+
+Use Conventional Commits so Release Please can generate version changes and release notes.
+See the [release guide](.github/RELEASING.md).

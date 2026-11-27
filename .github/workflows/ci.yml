@@ -1,0 +1,14 @@
+name: CI
+on:
+  pull_request:
+  push:
+permissions:
+  contents: read
+jobs:
+  repository-baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check repository baseline
+        shell: bash
+        run: bash .github/scripts/check-baseline.sh
